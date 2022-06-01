@@ -1,24 +1,20 @@
 :root{
     --mauve: #918CC2;
-    --purple: #25138A;
+    --purple: linear-gradient(#25138A, #0F467D);
     --blue: linear-gradient(#1E8CFA, #0F467D);
 
 }
 
 .topnav{
-    background-color: var(--purple);
-    color: antiquewhite;
+    background-image: var(--purple);
+    box-shadow: #1E8CFA;
 }
 
-.sidebar{
-    background-image: var(--blue);
+.topnav a{
+    color: var(--mauve);
 }
 
-.sidebar a{
-    color: var(--purple);
-}
-
-.sidebar a:hover{
+.topnav a:hover{
     color: antiquewhite;
 }
 
@@ -26,6 +22,6 @@ main{
     background-color: var(--mauve);
 }
 
-.foot{
-    background-color: var(--blue);
+footer{
+    background-image: var(--blue);
 }

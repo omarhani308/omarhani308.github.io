@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Macondo&family=Odibee+Sans&family=Tapestry&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: medium;
+}
+
+.topnav a{
+    font-size: x-large;
+    text-decoration: none;
+
+}

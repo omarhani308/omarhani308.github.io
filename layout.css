@@ -1,0 +1,60 @@
+.topnav-wrapper{
+    height: 220px;
+    max-width: 1300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    z-index: 1;
+    top: 0;
+    padding: 10 10;
+}
+
+.topnav-elements{
+    justify-items: flex-end;
+    align-content: space-evenly;
+    box-shadow: 3px;
+    border: 1px solid black;
+}
+
+.logo{
+    height: 180px;
+    width: auto;
+    align-self: center;
+    top: 0;
+}
+  
+.main{
+    margin: 20px 10px;
+    padding: 20px 10px;
+  }
+
+.feature-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-line{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.product-box{
+    border-color: whitesmoke;
+    padding: 10px;
+}
+
+.directory-box{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.directory-imgs{
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: right;
+}
