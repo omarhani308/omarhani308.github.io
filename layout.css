@@ -1,38 +1,110 @@
-.topnav-wrapper{
-    height: 220px;
-    max-width: 1300px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    z-index: 1;
-    top: 0;
-    padding: 10 10;
+html{
+    height: 100%;
+    width: 100%;
 }
 
-.topnav-elements{
-    justify-items: flex-end;
-    align-content: space-evenly;
-    box-shadow: 3px;
-    border: 1px solid black;
+body{
+    min-height: 100%;
+}
+
+.foot{
+    min-height: fit-content;
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.topnav{
+    min-height: 300px;
+    width: 100%;
+}
+
+.topnav-menu{
+    width: 100%;
+    display: flex;
+    flex-basis: 1;
+    justify-content: space-between;
+    min-height: 300px;
+    border-bottom: 5px groove #1E8CFA;
 }
 
 .logo{
-    height: 180px;
-    width: auto;
-    align-self: center;
-    top: 0;
+    vertical-align: top;
+    align-self: top;
+    left: 50%;
+    margin-left: -158px;
 }
-  
-.main{
-    margin: 20px 10px;
-    padding: 20px 10px;
-  }
+
+.nav-links{
+    width: 30%;
+    display: flex;
+    flex: row wrap;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.navmenu-item{
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    justify-self: flex-start;
+    align-self: flex-end;
+    left: 0;
+    min-width: 200px;
+    max-height: 65px;
+}
+
+#homebtn{
+    box-sizing: border-box;
+    padding: 10px 45px;
+    margin-bottom: 70px;
+}
+
+#aboutbtn{
+    box-sizing: border-box;
+    padding: 10px 45px;
+}
+
+.action-menu{
+    display: flex;
+    flex: row nowrap;
+    align-self: flex-start;
+    justify-items: right;
+    border: 1px solid #918CC2;
+    right: 5%;
+}
+
+.actionmenu-item{
+    justify-self: right;
+    border: 1px solid #918CC2;
+    padding: 10px 5px;
+    margin: 5px 5px;
+    right: 5%;
+}
 
 .feature-box{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 40px 20px 20px 50px;
+}
+
+.feature-tagline{
+    align-self: center;
+    text-align: center;
+    max-width: 425px;
+    border: 1px solid #25138A;
+    padding: 10px 10px;
+    border-radius: 18%;
+    margin-bottom: 20px;
+}
+
+.feature-imgs{
+    align-self: top;
     justify-content: center;
+    text-align: center;
 }
 
 .product-line{
@@ -40,21 +112,70 @@
     flex-flow: nowrap;
     justify-content: space-between;
     padding: 10px;
-    margin-left: 10px;
+    margin: 10px 10px 0px 10px;
+    border: 1px solid #25138A;
+}
+
+.line-descriptor{
+    margin-left: 15px;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    max-width: fit-content;
+    border-radius: 22px;
 }
 
 .product-box{
-    border-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
     padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-wrapper{
+    align-self: center;
+    margin: 5px;
+}
+
+.product-name{
+    margin: 3px 0px;
+}
+
+.product-price{
+    align-self: center;
+    margin: 3px 0px;
+}
+
+.atc{
+    margin: 3px 0px 0px 0px;
+    max-width: fit-content;
+}
+
+.atw{
+    max-width: fit-content;
 }
 
 .directory-box{
     display: flex;
     flex-flow: row wrap-reverse;
+    max-width: 500px;
+    flex-grow: 1;
+    align-self: center;
+    justify-self: right;
+    margin-right: 50px;
 }
 
 .directory-imgs{
-    max-width: 200px;
-    max-height: 200px;
+    display: flex;
     justify-content: right;
+    margin: 0px 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
 }

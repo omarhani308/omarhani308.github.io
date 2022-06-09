@@ -1,27 +1,63 @@
 :root{
     --mauve: #918CC2;
-    --purple: linear-gradient(#25138A, #0F467D);
+    --bgpurple: linear-gradient(#25138A, #0F467D);
+    --purple: #25138A;
     --blue: linear-gradient(#1E8CFA, #0F467D);
 
 }
 
 .topnav{
-    background-image: var(--purple);
-    box-shadow: #1E8CFA;
+    background-image: var(--bgpurple);
+    box-shadow: #1E8CFA; /* light blue */
 }
 
-.topnav a{
+.navmenu-item a{
+    color: var(--purple);
+}
+
+.navmenu-item{
+    background-color: antiquewhite;
+}
+
+.navmenu-item:hover{
+    background-color: #777777; /* grey */
+    color: #1E8CFA;
+    transition: all 0.5s ease;
+}
+
+.actionmenu-item a{
+    font-size: medium;
     color: var(--mauve);
 }
 
-.topnav a:hover{
-    color: antiquewhite;
+.actionmenu-item a:hover{
+    color: #1E8CFA; /* light blue */
 }
 
-main{
+body{
     background-color: var(--mauve);
+}
+
+.feature-tagline{ 
+    background-color: #777777; /* grey */
+    color: #25138A; /* deep purple */
+
+}
+.feature-tagline:hover{
+    color: #1E8CFA; /* light blue */
+    transition: all 0.5s ease;
 }
 
 footer{
     background-image: var(--blue);
+}
+
+.line-descriptor{
+    background-color: aliceblue;
+    opacity: 70%;
+}
+
+button{
+    background-color: transparent;
+    border: none;
 }
