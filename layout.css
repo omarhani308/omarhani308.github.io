@@ -50,8 +50,8 @@ body{
     justify-self: flex-start;
     align-self: flex-end;
     left: 0;
-    min-width: 200px;
-    max-height: 65px;
+    min-width: 175px;
+    max-height: 55px;
 }
 
 #homebtn{
@@ -74,7 +74,7 @@ body{
     right: 5%;
 }
 
-.actionmenu-item{
+.action-btn{
     justify-self: right;
     border: 1px solid #918CC2;
     padding: 10px 5px;
@@ -92,27 +92,29 @@ body{
 }
 
 .feature-tagline{
-    align-self: center;
+    justify-self: center;
     text-align: center;
-    max-width: 425px;
+    max-width: fit-content;
     border: 1px solid #25138A;
     padding: 10px 10px;
     border-radius: 18%;
     margin-bottom: 20px;
+    margin-left: 90px;
 }
 
 .feature-imgs{
     align-self: top;
     justify-content: center;
     text-align: center;
+    margin-bottom: 55px;
 }
 
 .product-line{
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     justify-content: space-between;
     padding: 10px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 50px 10px;
     border: 1px solid #25138A;
 }
 
@@ -129,6 +131,7 @@ body{
     flex-direction: column;
     border: 1px solid whitesmoke;
     padding: 10px;
+    margin: 10px 0px;
     justify-content: center;
     align-content: center;
 }
@@ -159,7 +162,7 @@ body{
 .directory-box{
     display: flex;
     flex-flow: row wrap-reverse;
-    max-width: 500px;
+    max-width: 400px;
     flex-grow: 1;
     align-self: center;
     justify-self: right;
