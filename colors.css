@@ -40,7 +40,7 @@ body{
 
 .feature-tagline{ 
     background-color: #777777; /* grey */
-    color: #25138A; /* deep purple */
+    color: var(--purple); /* deep purple */
 
 }
 .feature-tagline:hover{
@@ -50,6 +50,7 @@ body{
 
 footer{
     background-image: var(--blue);
+    border-top: 3px groove var(--purple);
 }
 
 .line-descriptor{
@@ -58,6 +59,68 @@ footer{
 }
 
 button{
-    background-color: transparent;
-    border: none;
+    background-color: #1E8CFA;
+    border: 2px groove var(--purple);
+}
+
+.foot-btn{
+    color: var(--purple);
+    border: solid 1px antiquewhite;
+}
+
+.footnav-tag{
+    background-color: #777777;
+    opacity: 70%;
+    border: 1px groove #777777;
+}
+
+.slogan{
+ color: var(--mauve);
+ background-color: #25138A;
+}
+
+.productbox-name{
+    color: var(--purple);
+}
+
+.productbox-desc{
+    color: var(--purple);
+}
+
+.productbox-price{
+    color: #C42410 /* red */
+}
+
+.page-title{
+    color: var(--purple);
+}
+
+.info{
+    color: white;
+}
+    
+.checkout-btn{
+    background-color: crimson;
+    color: var(--purple);
+}
+
+.fp-nd{
+    color: var(--purple);
+}
+
+.product-tagline{
+    color: var(--purple);
+    opacity: 70%;
+    font-weight: 1000;
+}
+
+.productbox-name-med{
+    color: var(--purple);
+}
+    
+.productbox-desc-med{
+    color: var(--purple);
+}   
+.productbox-price-med{
+    color: var(--purple);
 }

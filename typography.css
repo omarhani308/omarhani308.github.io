@@ -30,3 +30,81 @@ body{
 .line-descriptor{
     font-size: 1.6rem;
 }
+
+.footnav-tag{
+    font-size: 1.8rem;
+}
+
+.foot-btn{
+    font-size: 1.4rem;
+}
+
+.slogan{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 2.6rem;
+}
+
+.productbox-name-med{
+font-size: 1.4rem;
+}
+
+.productbox-desc-med{
+    font-size: 1.4rem;
+}
+
+.productbox-price-med{
+    font-size: 3rem;
+}
+
+.productbox-name{
+    font-size: 3rem;
+}
+
+.productbox-desc{
+    font-size: 1.2rem;
+}
+
+.productbox-price{
+    font-size: 3rem;
+}
+
+.atc-big{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans sans-serif;
+}
+
+.page-title{
+    font-size: 4rem;
+}
+
+.info{
+font-size: 2rem;}
+
+.checkout-btn{
+font-size: 1.8rem;
+}
+
+.atw-big{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans sans-serif;
+}
+
+button{
+    font-family: 'Yanone Kaffeesatz', sans sans-serif;
+}
+
+.search-bar{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.fp-name{
+    font-size: 3rem;
+}
+
+.fp-desc{
+    font-size: 1.6rem;
+}
+
+.product-tagline{
+    font-size: 3rem;
+}
